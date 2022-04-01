@@ -105,3 +105,5 @@ for epoch in range(num_epochs):
                     "Mnist Real Images", img_grid_real, global_step=step
                 )
                 step += 1
+                
+                
