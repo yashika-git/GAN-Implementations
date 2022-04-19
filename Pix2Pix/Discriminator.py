@@ -45,7 +45,6 @@ def test():
     y = torch.randn((1, 3, 256, 256))
     model = Discriminator(in_channels=3)
     preds = model(x,y)
-    print('heyy')
     print(model)
     print(preds.shape)
 
